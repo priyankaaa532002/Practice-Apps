@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="fill"
+        android:layout_margin="8dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="60dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/chalja"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:paddingLeft="48dp"
+            >
+
+            <TextView
+                android:id="@+id/subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="hellu"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Code - ITE1004"
+            android:paddingLeft="16dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/credits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Credits - 4"
+            android:paddingLeft="16dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/modules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modules -8"
+            android:paddingLeft="16dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

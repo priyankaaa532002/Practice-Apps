@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/amongus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/amongus" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:padding="20dp"
+        android:text="YOU ARE INVITED!"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="70sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:padding="20dp"
+        android:text=" 5th MaRcH || 8PM"
+        android:layout_above="@id/text"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/text"
+        android:text="There is 1 birthday girl
+                        among us...."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif"
+        android:textStyle="italic"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="30sp" />
+
+</RelativeLayout>
